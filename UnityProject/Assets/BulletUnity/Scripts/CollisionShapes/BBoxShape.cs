@@ -12,7 +12,7 @@ namespace BulletUnity {
     public class BBoxShape : BCollisionShape {
         
 	    //Default extents of the box primitive.
-	    [SerializeField] protected Vector3 _extents = new Vector3(0.5f, 0.5f, 0.5f);
+	    [SerializeField] private Vector3 _extents = new Vector3(0.5f, 0.5f, 0.5f);
         public Vector3 Extents {
             get { return _extents; }
             set {
@@ -26,7 +26,7 @@ namespace BulletUnity {
         }
         
         //Local scaling of the shape
-        [SerializeField] protected Vector3 _localScaling = Vector3.one;
+        [SerializeField] private Vector3 _localScaling = Vector3.one;
         public Vector3 LocalScaling {
             get { return _localScaling; }
             set {

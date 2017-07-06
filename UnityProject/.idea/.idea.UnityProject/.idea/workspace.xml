@@ -96,48 +96,143 @@
       <file leaf-file-name="BBoxShape.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BBoxShape.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="462">
+              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
               <folding>
-                <marker date="1499377456476" expanded="true" signature="6:77" ph="..." />
-                <marker date="1499377456476" expanded="true" signature="101:2357" ph="{...}" />
-                <marker date="1499377456476" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
-                <marker date="1499377456476" expanded="true" signature="341:2355" ph="{...}" />
-                <marker date="1499377456476" expanded="true" signature="510:978" ph="{...}" />
-                <marker date="1499377456476" expanded="true" signature="565:968" ph="{...}" />
-                <marker date="1499377456476" expanded="true" signature="635:891" ph="{...}" />
-                <marker date="1499377456476" expanded="true" signature="1133:1407" ph="{...}" />
-                <marker date="1499377456476" expanded="true" signature="1193:1397" ph="{...}" />
-                <marker date="1499377456476" expanded="true" signature="1281:1383" ph="{...}" />
-                <marker date="1499377456476" expanded="true" signature="1522:1818" ph="{...}" />
-                <marker date="1499377456476" expanded="true" signature="1888:2020" ph="{...}" />
-                <marker date="1499377456476" expanded="true" signature="2081:2349" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="6:77" ph="..." />
+                <marker date="1499377699540" expanded="true" signature="101:2353" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
+                <marker date="1499377699540" expanded="true" signature="341:2351" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="508:976" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="563:966" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="633:889" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="1129:1403" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="1189:1393" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="1277:1379" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="1518:1814" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="1884:2016" ph="{...}" />
+                <marker date="1499377699540" expanded="true" signature="2077:2345" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BSphereShape.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BSphereShape.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BSphereShape.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="819">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
-                <marker date="1499377456467" expanded="true" signature="6:77" ph="..." />
-                <marker date="1499377456467" expanded="true" signature="101:2305" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
-                <marker date="1499377456467" expanded="true" signature="347:2303" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="433:949" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="495:939" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="576:847" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="847:925" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="1066:1380" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="1134:1370" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="1234:1356" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="1434:1781" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="1471:1523" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="1842:1974" ph="{...}" />
-                <marker date="1499377456467" expanded="true" signature="2035:2297" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="6:77" ph="..." />
+                <marker date="1499377668764" expanded="true" signature="101:2380" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
+                <marker date="1499377668764" expanded="true" signature="347:2378" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="470:986" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="532:976" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="613:884" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="884:962" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="1141:1455" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="1209:1445" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="1309:1431" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="1509:1856" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="1546:1598" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="1917:2049" ph="{...}" />
+                <marker date="1499377668764" expanded="true" signature="2110:2372" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BConvexTriangleMeshShape.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BConvexTriangleMeshShape.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1499374647015" expanded="false" signature="6:77" ph="..." />
+                <marker date="1499374647015" expanded="true" signature="101:2735" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="229:2733" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="317:837" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="380:827" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="462:734" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="734:813" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="955:1275" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="1024:1265" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="1125:1251" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="1285:1426" ph="/* todo draw the hull when not in the world ... */" />
+                <marker date="1499374647015" expanded="true" signature="1480:1599" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="1665:2340" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="1928:2176" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="2401:2474" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="2535:2727" ph="{...}" />
+                <marker date="1499374647015" expanded="true" signature="2580:2679" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BCapsuleShape.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BCapsuleShape.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="100" column="99" lean-forward="false" selection-start-line="100" selection-start-column="99" selection-end-line="100" selection-end-column="99" />
+              <folding>
+                <marker date="1499378141965" expanded="false" signature="6:77" ph="..." />
+                <marker date="1499378141965" expanded="true" signature="101:4333" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="206:4331" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="239:303" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="396:909" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="457:899" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="537:808" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="808:885" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="1000:1513" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="1061:1503" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="1141:1412" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="1412:1489" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="1627:2140" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="1688:2130" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="1768:2039" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="2039:2116" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="2258:2575" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="2327:2565" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="2428:2551" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="2629:3311" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="2666:2718" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="2944:3055" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="3089:3198" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="3355:3974" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="3442:3526" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="3572:3655" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="3701:3785" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="3802:3884" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="4035:4097" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="4158:4325" ph="{...}" />
+                <marker date="1499378141965" expanded="true" signature="4203:4277" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BCylinderShape.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BCylinderShape.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+              <folding>
+                <marker date="1499378406729" expanded="false" signature="6:77" ph="..." />
+                <marker date="1499378406729" expanded="true" signature="100:2275" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="209:2273" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="333:863" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="399:853" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="484:757" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="757:839" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="970:1286" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="1038:1276" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="1138:1262" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="1339:1707" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="1385:1437" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="1768:1917" ph="{...}" />
+                <marker date="1499378406729" expanded="true" signature="1977:2267" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -149,8 +244,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/BulletUnity/Scripts/BSExtensionMethods2.cs" />
-        <option value="$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BBoxShape.cs" />
         <option value="$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BSphereShape.cs" />
+        <option value="$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BBoxShape.cs" />
+        <option value="$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BCapsuleShape.cs" />
+        <option value="$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BCylinderShape.cs" />
       </list>
     </option>
   </component>
@@ -290,12 +387,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499374756007</updated>
-      <workItem from="1499374758141" duration="2710000" />
+      <workItem from="1499374758141" duration="4037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2710000" />
+    <option name="totallyTimeSpent" value="4037000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,46 +520,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BBoxShape.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="462">
+          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
           <folding>
-            <marker date="1499377456476" expanded="true" signature="6:77" ph="..." />
-            <marker date="1499377456476" expanded="true" signature="101:2357" ph="{...}" />
-            <marker date="1499377456476" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
-            <marker date="1499377456476" expanded="true" signature="341:2355" ph="{...}" />
-            <marker date="1499377456476" expanded="true" signature="510:978" ph="{...}" />
-            <marker date="1499377456476" expanded="true" signature="565:968" ph="{...}" />
-            <marker date="1499377456476" expanded="true" signature="635:891" ph="{...}" />
-            <marker date="1499377456476" expanded="true" signature="1133:1407" ph="{...}" />
-            <marker date="1499377456476" expanded="true" signature="1193:1397" ph="{...}" />
-            <marker date="1499377456476" expanded="true" signature="1281:1383" ph="{...}" />
-            <marker date="1499377456476" expanded="true" signature="1522:1818" ph="{...}" />
-            <marker date="1499377456476" expanded="true" signature="1888:2020" ph="{...}" />
-            <marker date="1499377456476" expanded="true" signature="2081:2349" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="6:77" ph="..." />
+            <marker date="1499377699540" expanded="true" signature="101:2353" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
+            <marker date="1499377699540" expanded="true" signature="341:2351" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="508:976" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="563:966" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="633:889" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="1129:1403" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="1189:1393" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="1277:1379" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="1518:1814" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="1884:2016" ph="{...}" />
+            <marker date="1499377699540" expanded="true" signature="2077:2345" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BSphereShape.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="819">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
-            <marker date="1499377456467" expanded="true" signature="6:77" ph="..." />
-            <marker date="1499377456467" expanded="true" signature="101:2305" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
-            <marker date="1499377456467" expanded="true" signature="347:2303" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="433:949" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="495:939" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="576:847" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="847:925" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="1066:1380" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="1134:1370" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="1234:1356" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="1434:1781" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="1471:1523" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="1842:1974" ph="{...}" />
-            <marker date="1499377456467" expanded="true" signature="2035:2297" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="6:77" ph="..." />
+            <marker date="1499377668764" expanded="true" signature="101:2380" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
+            <marker date="1499377668764" expanded="true" signature="347:2378" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="470:986" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="532:976" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="613:884" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="884:962" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="1141:1455" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="1209:1445" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="1309:1431" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="1509:1856" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="1546:1598" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="1917:2049" ph="{...}" />
+            <marker date="1499377668764" expanded="true" signature="2110:2372" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BConvexTriangleMeshShape.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1499374647015" expanded="false" signature="6:77" ph="..." />
+            <marker date="1499374647015" expanded="true" signature="101:2735" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="229:2733" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="317:837" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="380:827" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="462:734" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="734:813" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="955:1275" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="1024:1265" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="1125:1251" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="1285:1426" ph="/* todo draw the hull when not in the world ... */" />
+            <marker date="1499374647015" expanded="true" signature="1480:1599" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="1665:2340" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="1928:2176" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="2401:2474" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="2535:2727" ph="{...}" />
+            <marker date="1499374647015" expanded="true" signature="2580:2679" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BCapsuleShape.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="100" column="99" lean-forward="false" selection-start-line="100" selection-start-column="99" selection-end-line="100" selection-end-column="99" />
+          <folding>
+            <marker date="1499378141965" expanded="false" signature="6:77" ph="..." />
+            <marker date="1499378141965" expanded="true" signature="101:4333" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="206:4331" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="239:303" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="396:909" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="457:899" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="537:808" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="808:885" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="1000:1513" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="1061:1503" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="1141:1412" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="1412:1489" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="1627:2140" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="1688:2130" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="1768:2039" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="2039:2116" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="2258:2575" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="2327:2565" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="2428:2551" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="2629:3311" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="2666:2718" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="2944:3055" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="3089:3198" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="3355:3974" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="3442:3526" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="3572:3655" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="3701:3785" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="3802:3884" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="4035:4097" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="4158:4325" ph="{...}" />
+            <marker date="1499378141965" expanded="true" signature="4203:4277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BCylinderShape.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+          <folding>
+            <marker date="1499378406729" expanded="false" signature="6:77" ph="..." />
+            <marker date="1499378406729" expanded="true" signature="100:2275" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="209:2273" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="333:863" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="399:853" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="484:757" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="757:839" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="970:1286" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="1038:1276" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="1138:1262" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="1339:1707" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="1385:1437" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="1768:1917" ph="{...}" />
+            <marker date="1499378406729" expanded="true" signature="1977:2267" ph="{...}" />
           </folding>
         </state>
       </provider>

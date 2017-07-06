@@ -15,7 +15,7 @@ namespace BulletUnity {
         }
 
         [SerializeField]
-        protected float radius = 1f;
+        protected float radius = 0.5f;
         public float Radius
         {
             get { return radius; }
@@ -33,7 +33,7 @@ namespace BulletUnity {
         }
 
         [SerializeField]
-        protected float height = 2f;
+        protected float height = 1f;
         public float Height
         {
             get { return height; }
@@ -98,7 +98,7 @@ namespace BulletUnity {
             {
                 rotation = Quaternion.AngleAxis(90, transform.right) * rotation;
             }
-            BUtility.DebugDrawCapsule(position, rotation, scale, radius, height / 2f, 1, Gizmos.color);
+            BUtility.DebugDrawCapsule(position, rotation, scale, radius, height / 2f, 1, Color.blue);
 
         }
 

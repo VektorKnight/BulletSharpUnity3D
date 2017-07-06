@@ -10,7 +10,8 @@ namespace BulletUnity {
     /// </summary>
 	[AddComponentMenu("Physics Bullet/Shapes/Sphere")]
     public class BSphereShape : BCollisionShape {
-        [SerializeField] protected float _radius = 0.5f;
+        //Default radius of the sphere
+        [SerializeField] private float _radius = 0.5f;
         public float Radius
         {
             get { return _radius; }
@@ -26,9 +27,9 @@ namespace BulletUnity {
                 }
             }
         }
-
-        [SerializeField]
-        protected Vector3 _localScaling = Vector3.one;
+        
+        //Default scaling for the shape
+        [SerializeField] private Vector3 _localScaling = Vector3.one;
         public Vector3 LocalScaling
         {
             get { return _localScaling; }

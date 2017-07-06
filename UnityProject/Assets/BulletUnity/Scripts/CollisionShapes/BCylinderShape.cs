@@ -8,32 +8,30 @@ namespace BulletUnity
     [AddComponentMenu("Physics Bullet/Shapes/Cylinder")]
     public class BCylinderShape : BCollisionShape
     {
-        [SerializeField]
-        protected Vector3 halfExtent = new Vector3(0.5f, 0.5f, 0.5f);
+        [SerializeField] private Vector3 _halfExtent = new Vector3(0.5f, 1f, 0.5f);
         public Vector3 HalfExtent
         {
-            get { return halfExtent; }
+            get { return _halfExtent; }
             set
             {
-                if (collisionShapePtr != null && value != halfExtent)
+                if (collisionShapePtr != null && value != _halfExtent)
                 {
                     Debug.LogError("Cannot change the extents after the bullet shape has been created. Extents is only the initial value " +
                                     "Use LocalScaling to change the shape of a bullet shape.");
                 }
                 else {
-                    halfExtent = value;
+                    _halfExtent = value;
                 }
             }
         }
 
-        [SerializeField]
-        protected Vector3 m_localScaling = Vector3.one;
+        [SerializeField] private Vector3 _localScaling = Vector3.one;
         public Vector3 LocalScaling
         {
-            get { return m_localScaling; }
+            get { return _localScaling; }
             set
             {
-                m_localScaling = value;
+                _localScaling = value;
                 if (collisionShapePtr != null)
                 {
                     ((CylinderShape)collisionShapePtr).LocalScaling = value.ToBullet();
@@ -47,26 +45,23 @@ namespace BulletUnity
             {
                 return;
             }
-            UnityEngine.Vector3 position = transform.position;
-            UnityEngine.Quaternion rotation = transform.rotation;
-            UnityEngine.Vector3 scale = m_localScaling;
-            BUtility.DebugDrawCylinder(position, rotation, scale, halfExtent.x, halfExtent.y, 1, Color.yellow);
+            Vector3 position = transform.position;
+            Quaternion rotation = transform.rotation;
+            Vector3 scale = _localScaling;
+            BUtility.DebugDrawCylinder(position, rotation, scale, _halfExtent.x, _halfExtent.y, 1, Color.blue);
         }
 
         public override CollisionShape CopyCollisionShape()
         {
-            CylinderShape cs = new CylinderShape(halfExtent.ToBullet());
-            cs.LocalScaling = m_localScaling.ToBullet();
+            var cs = new CylinderShape(_halfExtent.ToBullet()) {LocalScaling = _localScaling.ToBullet()};
             return cs;
         }
 
         public override CollisionShape GetCollisionShape()
         {
-            if (collisionShapePtr == null)
-            {
-                collisionShapePtr = new CylinderShape(halfExtent.ToBullet());
-                ((CylinderShape)collisionShapePtr).LocalScaling = m_localScaling.ToBullet();
-            }
+            if (collisionShapePtr != null) return collisionShapePtr;
+            collisionShapePtr = new CylinderShape(_halfExtent.ToBullet());
+            ((CylinderShape)collisionShapePtr).LocalScaling = _localScaling.ToBullet();
             return collisionShapePtr;
         }
     }
