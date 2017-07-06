@@ -348,7 +348,7 @@ namespace DemoFramework {
             mesh.triangles = triangles;
 
             mesh.RecalculateBounds();
-            mesh.Optimize();
+            ;
         }
 
         public static void CreateCube(CollisionShape cs, Mesh mesh) {
@@ -491,7 +491,7 @@ namespace DemoFramework {
             mesh.triangles = triangles;
 
             mesh.RecalculateBounds();
-            mesh.Optimize();
+            ;
         }
 
         public static void CreateSphere(SphereShape shape, Mesh mesh) {
@@ -584,7 +584,7 @@ namespace DemoFramework {
             mesh.triangles = triangles;
 
             mesh.RecalculateBounds();
-            mesh.Optimize();
+            ;
         }
     }
 }

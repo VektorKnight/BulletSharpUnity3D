@@ -5,26 +5,54 @@ using System.Collections;
 using System.Reflection;
 
 namespace BulletUnity {
+    /// <summary>
+    /// Extension methods for converting common data types between BulletSharp and Unity
+    /// </summary>
     public static class BSExtensionMethods2 {
-
-        public static BulletSharp.Math.Quaternion ToBullet(this UnityEngine.Quaternion v) {
-            return new BulletSharp.Math.Quaternion(v.x, v.y, v.z, v.w);
+        
+        /// <summary>
+        /// Convert a Unity Quaternion to BulletSharp
+        /// </summary>
+        /// <param name="q">Quaternion to be converted</param>
+        /// <returns></returns>
+        public static BulletSharp.Math.Quaternion ToBullet(this UnityEngine.Quaternion q) {
+            return new BulletSharp.Math.Quaternion(q.x, q.y, q.z, q.w);
         }
-
-        public static UnityEngine.Quaternion ToUnity(this BulletSharp.Math.Quaternion v) {
-            return new UnityEngine.Quaternion(v.X, v.Y, v.Z, v.W);
+        
+        /// <summary>
+        /// Convert a BulletSharp Quaternion to Unity
+        /// </summary>
+        /// <param name="q">Quaternion to be converted</param>
+        /// <returns></returns>
+        public static UnityEngine.Quaternion ToUnity(this BulletSharp.Math.Quaternion q) {
+            return new UnityEngine.Quaternion(q.X, q.Y, q.Z, q.W);
         }
-
+        
+        /// <summary>
+        /// Convert a Unity Vector3 to BulletSharp
+        /// </summary>
+        /// <param name="v">Vector3 to be converted</param>
+        /// <returns></returns>
         public static BulletSharp.Math.Vector3 ToBullet(this UnityEngine.Vector3 v) {
             return new BulletSharp.Math.Vector3(v.x, v.y, v.z);
         }
-
+    
+        /// <summary>
+        /// Convert a BulletSharp Vector3 to Unity
+        /// </summary>
+        /// <param name="v">Vector3 to be converted</param>
+        /// <returns></returns>
         public static UnityEngine.Vector3 ToUnity(this BulletSharp.Math.Vector3 v) {
             return new UnityEngine.Vector3(v.X, v.Y, v.Z);
         }
 
+        /// <summary>
+        /// Convert a BulletSharp Matrix4x4 to Unity
+        /// </summary>
+        /// <param name="bm">Matrix to be converted</param>
+        /// <returns></returns>
         public static UnityEngine.Matrix4x4 ToUnity(this BulletSharp.Math.Matrix bm) {
-            Matrix4x4 um = new Matrix4x4();
+            var um = new Matrix4x4();
             um[0, 0] = bm[0, 0];
             um[0, 1] = bm[1, 0];
             um[0, 2] = bm[2, 0];
@@ -47,47 +75,12 @@ namespace BulletUnity {
             return um;
         }
 
-
-        public static BulletSharp.Math.Quaternion GetOrientation(this BulletSharp.Math.Matrix bm)
-        {
-                /*
-                float trace = M11 + M22 + M33;
-
-                float[] temp = new float[4];
-
-                if (trace > 0.0f)
-                {
-                    float s = UnityEngine.Mathf.Sqrt(trace + (1.0f));
-                    temp[3] = (s * (0.5f));
-                    s = (0.5f) / s;
-
-                    temp[0] = ((M32 - M23) * s);
-                    temp[1] = ((M13 - M31) * s);
-                    temp[2] = ((M21 - M12) * s);
-
-                    temp[0] = ((M23 - M32) * s);
-                    temp[1] = ((M31 - M13) * s);
-                    temp[2] = ((M12 - M21) * s);
-                }
-                else
-                {
-                    int i =  M11 < M22 ?
-                            (M22 < M33 ? 2 : 1) :
-                            (M11 < M33 ? 2 : 0);
-                    int j = (i + 1) % 3;
-                    int k = (i + 2) % 3;
-
-                    float s = UnityEngine.Mathf.Sqrt(this[i,i] - this[j,j] - this[k,k] + 1.0f);
-                    temp[i] = s * 0.5f;
-                    s = 0.5f / s;
-
-                    temp[3] = (this[j,k] - this[k,j]) * s;
-                    temp[j] = (this[i,j] + this[j,i]) * s;
-                    temp[k] = (this[i,k] + this[k,i]) * s;
-                }
-                return new BulletSharp.Math.Quaternion(temp[0], temp[1], temp[2], temp[3]);
-                */
-
+        /// <summary>
+        /// Get Quaternion rotation from BulletSharp Matrix4x4
+        /// </summary>
+        /// <param name="bm">Matrix from which to extract a rotation</param>
+        /// <returns></returns>
+        public static BulletSharp.Math.Quaternion GetOrientation(this BulletSharp.Math.Matrix bm) {
                 //Scaling is the length of the rows.
                 BulletSharp.Math.Vector3 scale;
                 scale.X = (float)System.Math.Sqrt((bm.M11 * bm.M11) + (bm.M12 * bm.M12) + (bm.M13 * bm.M13));
@@ -108,11 +101,10 @@ namespace BulletUnity {
                 float mm33 = bm.M33 / scale.Z;
 
 
-                //------------------------
                 float sqrt;
                 float half;
                 float trace = mm11 + mm22 + mm33;
-                BulletSharp.Math.Quaternion result = new BulletSharp.Math.Quaternion();
+                var result = new BulletSharp.Math.Quaternion();
                 if (trace > 0.0f)
                 {
                     sqrt = (float)UnityEngine.Mathf.Sqrt(trace + 1.0f);
@@ -153,7 +145,6 @@ namespace BulletUnity {
                     result.Z = 0.5f * sqrt;
                     result.W = (mm12 - mm21) * half;
                 }
-                //------------------------
                 return result;
         }
 
