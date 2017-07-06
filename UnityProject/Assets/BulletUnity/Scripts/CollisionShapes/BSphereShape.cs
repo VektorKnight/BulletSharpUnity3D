@@ -4,34 +4,37 @@ using System.Collections;
 using BulletSharp;
 
 namespace BulletUnity {
+    /// <summary>
+    /// Class revised to match default Unity primitive along with minor code cleanup
+    /// -VektorKnight
+    /// </summary>
 	[AddComponentMenu("Physics Bullet/Shapes/Sphere")]
     public class BSphereShape : BCollisionShape {
-        [SerializeField]
-        protected float radius = 1f;
+        [SerializeField] protected float _radius = 0.5f;
         public float Radius
         {
-            get { return radius; }
+            get { return _radius; }
             set
             {
-                if (collisionShapePtr != null && value != radius)
+                if (collisionShapePtr != null && value != _radius)
                 {
                     Debug.LogError("Cannot change the radius after the bullet shape has been created. Radius is only the initial value " +
                                     "Use LocalScaling to change the shape of a bullet shape.");
                 }
                 else {
-                    radius = value;
+                    _radius = value;
                 }
             }
         }
 
         [SerializeField]
-        protected Vector3 m_localScaling = Vector3.one;
+        protected Vector3 _localScaling = Vector3.one;
         public Vector3 LocalScaling
         {
-            get { return m_localScaling; }
+            get { return _localScaling; }
             set
             {
-                m_localScaling = value;
+                _localScaling = value;
                 if (collisionShapePtr != null)
                 {
                     ((SphereShape)collisionShapePtr).LocalScaling = value.ToBullet();
@@ -44,24 +47,22 @@ namespace BulletUnity {
             {
                 return;
             }
-            UnityEngine.Vector3 position = transform.position;
-            UnityEngine.Quaternion rotation = transform.rotation;
-            UnityEngine.Vector3 scale = m_localScaling;
-            BUtility.DebugDrawSphere(position, rotation, scale, Vector3.one * radius, Color.yellow);
+            Vector3 position = transform.position;
+            Quaternion rotation = transform.rotation;
+            Vector3 scale = _localScaling;
+            BUtility.DebugDrawSphere(position, rotation, scale, Vector3.one * _radius, Color.blue);
         }
 
         public override CollisionShape CopyCollisionShape()
         {
-            SphereShape ss = new SphereShape(radius);
-            ss.LocalScaling = m_localScaling.ToBullet();
+            var ss = new SphereShape(_radius) {LocalScaling = _localScaling.ToBullet()};
             return ss;
         }
 
         public override CollisionShape GetCollisionShape() {
-            if (collisionShapePtr == null) {
-                collisionShapePtr = new SphereShape(radius);
-                ((SphereShape)collisionShapePtr).LocalScaling = m_localScaling.ToBullet();
-            }
+            if (collisionShapePtr != null) return collisionShapePtr;
+            collisionShapePtr = new SphereShape(_radius);
+            ((SphereShape)collisionShapePtr).LocalScaling = _localScaling.ToBullet();
             return collisionShapePtr;
         }
     }

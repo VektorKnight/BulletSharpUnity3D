@@ -4,65 +4,58 @@ using System.Collections;
 using BulletSharp;
 
 namespace BulletUnity {
+    /// <summary>
+    /// Class revised to match default Unity primitive along with minor code cleanup
+    /// -VektorKnight
+    /// </summary>
 	[AddComponentMenu("Physics Bullet/Shapes/Box")]
     public class BBoxShape : BCollisionShape {
-        //public Vector3 extents = Vector3.one;
-
-        [SerializeField]
-        protected Vector3 extents = Vector3.one;
-        public Vector3 Extents
-        {
-            get { return extents; }
-            set
-            {
-                if (collisionShapePtr != null && value != extents)
-                {
+        
+	    //Default extents of the box primitive.
+	    [SerializeField] protected Vector3 _extents = new Vector3(0.5f, 0.5f, 0.5f);
+        public Vector3 Extents {
+            get { return _extents; }
+            set {
+                if (collisionShapePtr != null && value != _extents) {
                     Debug.LogError("Cannot change the extents after the bullet shape has been created. Extents is only the initial value " +
                                     "Use LocalScaling to change the shape of a bullet shape.");
                 } else {
-                    extents = value;
+                    _extents = value;
                 }
             }
         }
-
-        [SerializeField]
-        protected Vector3 m_localScaling = Vector3.one;
-        public Vector3 LocalScaling
-        {
-            get { return m_localScaling; }
-            set
-            {
-                m_localScaling = value;
-                if (collisionShapePtr != null)
-                {
+        
+        //Local scaling of the shape
+        [SerializeField] protected Vector3 _localScaling = Vector3.one;
+        public Vector3 LocalScaling {
+            get { return _localScaling; }
+            set {
+                _localScaling = value;
+                if (collisionShapePtr != null) {
                     ((BoxShape)collisionShapePtr).LocalScaling = value.ToBullet();
                 }
             }
         }
-
+        
+        //Draw the shape in-editor for visualization
         public override void OnDrawGizmosSelected() {
-            if (drawGizmo == false)
-            {
-                return;
-            }
+            if (drawGizmo == false) return;
+        
             Vector3 position = transform.position;
             Quaternion rotation = transform.rotation;
-            Vector3 scale = m_localScaling;
-            BUtility.DebugDrawBox(position, rotation, scale, extents, Color.yellow);
+            Vector3 scale = _localScaling;
+            BUtility.DebugDrawBox(position, rotation, scale, _extents, Color.blue);
         }
-
-        public override CollisionShape CopyCollisionShape()
-        {
-            BoxShape bs = new BoxShape(extents.ToBullet());
-            bs.LocalScaling = m_localScaling.ToBullet();
+        
+        public override CollisionShape CopyCollisionShape() {
+            var bs = new BoxShape(_extents.ToBullet()) {LocalScaling = _localScaling.ToBullet()};
             return bs;
         }
 
         public override CollisionShape GetCollisionShape() {
-            if (collisionShapePtr == null) {
-                collisionShapePtr = new BoxShape(extents.ToBullet());
-                ((BoxShape)collisionShapePtr).LocalScaling = m_localScaling.ToBullet();
-            }
+            if (collisionShapePtr != null) return collisionShapePtr;
+            collisionShapePtr = new BoxShape(_extents.ToBullet());
+            ((BoxShape)collisionShapePtr).LocalScaling = _localScaling.ToBullet();
             return collisionShapePtr;
         }
     }

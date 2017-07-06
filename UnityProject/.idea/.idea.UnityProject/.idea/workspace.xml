@@ -12,13 +12,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BSExtensionMethods2.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BSExtensionMethods2.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/BSExtensionMethods2.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="1292">
               <caret line="80" column="68" lean-forward="false" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
               <folding>
-                <marker date="1499375287396" expanded="true" signature="6:100" ph="..." />
+                <marker date="1499375287396" expanded="false" signature="6:100" ph="..." />
                 <marker date="1499375287396" expanded="true" signature="124:14604" ph="{...}" />
                 <marker date="1499375287396" expanded="true" signature="130:251" ph="/// Extension methods for converting common data types between BulletSharp and Unity ... " />
                 <marker date="1499375287396" expanded="true" signature="296:14602" ph="{...}" />
@@ -65,12 +65,92 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BConvexHullShape.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BConvexHullShape.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+              <folding>
+                <marker date="1499374647014" expanded="false" signature="6:77" ph="..." />
+                <marker date="1499374647014" expanded="true" signature="101:2410" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="212:2408" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="300:820" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="363:810" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="445:717" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="717:796" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="938:1259" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="1007:1249" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="1108:1235" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="1364:1390" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="1440:2045" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="1512:1589" ph="/* todo remove duplicate verts ... */" />
+                <marker date="1499374647014" expanded="true" signature="1698:1893" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="2106:2171" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="2232:2402" ph="{...}" />
+                <marker date="1499374647014" expanded="true" signature="2277:2354" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BBoxShape.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BBoxShape.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <marker date="1499377456476" expanded="true" signature="6:77" ph="..." />
+                <marker date="1499377456476" expanded="true" signature="101:2357" ph="{...}" />
+                <marker date="1499377456476" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
+                <marker date="1499377456476" expanded="true" signature="341:2355" ph="{...}" />
+                <marker date="1499377456476" expanded="true" signature="510:978" ph="{...}" />
+                <marker date="1499377456476" expanded="true" signature="565:968" ph="{...}" />
+                <marker date="1499377456476" expanded="true" signature="635:891" ph="{...}" />
+                <marker date="1499377456476" expanded="true" signature="1133:1407" ph="{...}" />
+                <marker date="1499377456476" expanded="true" signature="1193:1397" ph="{...}" />
+                <marker date="1499377456476" expanded="true" signature="1281:1383" ph="{...}" />
+                <marker date="1499377456476" expanded="true" signature="1522:1818" ph="{...}" />
+                <marker date="1499377456476" expanded="true" signature="1888:2020" ph="{...}" />
+                <marker date="1499377456476" expanded="true" signature="2081:2349" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BSphereShape.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BSphereShape.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <marker date="1499377456467" expanded="true" signature="6:77" ph="..." />
+                <marker date="1499377456467" expanded="true" signature="101:2305" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
+                <marker date="1499377456467" expanded="true" signature="347:2303" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="433:949" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="495:939" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="576:847" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="847:925" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="1066:1380" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="1134:1370" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="1234:1356" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="1434:1781" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="1471:1523" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="1842:1974" ph="{...}" />
+                <marker date="1499377456467" expanded="true" signature="2035:2297" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/BulletUnity/Scripts/BSExtensionMethods2.cs" />
+        <option value="$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BBoxShape.cs" />
+        <option value="$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BSphereShape.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +190,7 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UnityProject (3 projects)" />
+              <option name="myItemId" value="UnityProject (4 projects)" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -148,7 +228,49 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
@@ -168,12 +290,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499374756007</updated>
-      <workItem from="1499374758141" duration="531000" />
+      <workItem from="1499374758141" duration="2710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="531000" />
+    <option name="totallyTimeSpent" value="2710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -224,10 +346,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/BSExtensionMethods2.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="1292">
           <caret line="80" column="68" lean-forward="false" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
           <folding>
-            <marker date="1499375287396" expanded="true" signature="6:100" ph="..." />
+            <marker date="1499375287396" expanded="false" signature="6:100" ph="..." />
             <marker date="1499375287396" expanded="true" signature="124:14604" ph="{...}" />
             <marker date="1499375287396" expanded="true" signature="130:251" ph="/// Extension methods for converting common data types between BulletSharp and Unity ... " />
             <marker date="1499375287396" expanded="true" signature="296:14602" ph="{...}" />
@@ -269,6 +391,78 @@
             <marker date="1499375287396" expanded="true" signature="13822:14027" ph="/// Identity matrix. ... " />
             <marker date="1499375287396" expanded="true" signature="14115:14339" ph="/// Get translation matrix. ... " />
             <marker date="1499375287396" expanded="true" signature="14406:14596" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BConvexHullShape.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <marker date="1499374647014" expanded="false" signature="6:77" ph="..." />
+            <marker date="1499374647014" expanded="true" signature="101:2410" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="212:2408" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="300:820" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="363:810" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="445:717" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="717:796" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="938:1259" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="1007:1249" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="1108:1235" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="1364:1390" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="1440:2045" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="1512:1589" ph="/* todo remove duplicate verts ... */" />
+            <marker date="1499374647014" expanded="true" signature="1698:1893" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="2106:2171" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="2232:2402" ph="{...}" />
+            <marker date="1499374647014" expanded="true" signature="2277:2354" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BBoxShape.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <marker date="1499377456476" expanded="true" signature="6:77" ph="..." />
+            <marker date="1499377456476" expanded="true" signature="101:2357" ph="{...}" />
+            <marker date="1499377456476" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
+            <marker date="1499377456476" expanded="true" signature="341:2355" ph="{...}" />
+            <marker date="1499377456476" expanded="true" signature="510:978" ph="{...}" />
+            <marker date="1499377456476" expanded="true" signature="565:968" ph="{...}" />
+            <marker date="1499377456476" expanded="true" signature="635:891" ph="{...}" />
+            <marker date="1499377456476" expanded="true" signature="1133:1407" ph="{...}" />
+            <marker date="1499377456476" expanded="true" signature="1193:1397" ph="{...}" />
+            <marker date="1499377456476" expanded="true" signature="1281:1383" ph="{...}" />
+            <marker date="1499377456476" expanded="true" signature="1522:1818" ph="{...}" />
+            <marker date="1499377456476" expanded="true" signature="1888:2020" ph="{...}" />
+            <marker date="1499377456476" expanded="true" signature="2081:2349" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BulletUnity/Scripts/CollisionShapes/BSphereShape.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <marker date="1499377456467" expanded="true" signature="6:77" ph="..." />
+            <marker date="1499377456467" expanded="true" signature="101:2305" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="107:246" ph="/// Class revised to match default Unity primitive along with minor code cleanup ... " />
+            <marker date="1499377456467" expanded="true" signature="347:2303" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="433:949" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="495:939" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="576:847" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="847:925" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="1066:1380" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="1134:1370" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="1234:1356" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="1434:1781" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="1471:1523" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="1842:1974" ph="{...}" />
+            <marker date="1499377456467" expanded="true" signature="2035:2297" ph="{...}" />
           </folding>
         </state>
       </provider>
