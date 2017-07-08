@@ -1,2 +1,4 @@
 # BulletSharpUnity3d
-A fork of the BulletSharp project to make the Bullet Physics Engine usable from C# code in Unity3d
+This project has been abandoned in favor of a brand-new implementation written mostly from scratch. 
+
+New Project: https://github.com/VektorKnight/Bullet4Unity
